@@ -1,6 +1,17 @@
-.donut-spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid rgba(0, 0, 0 , 0.1);
-    border-left-color: #7983ff
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+body {
+    padding: 2em;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+background_image:donut_background.png
