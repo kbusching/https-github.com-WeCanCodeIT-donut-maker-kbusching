@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time to Make Donuts</title>
-    <href=<Donut_Background.jpg></href>
+    <title>Donut Game</title>
+    <link rel="stylesheet" href="css/style.css">
     <href=style.css></href>
     <href=DonutMaker.js></href>
+    <href=Donut_Background.jpg></href>
 </head>
+<body style="background:url(../images/Donut-Pattern.jpg)">
+<div class="image"></div>    
 <style> 
 ul {
     list-style-type: none;
@@ -19,14 +22,28 @@ li {
     display: inline;
 }
 </style>
-<h1>Fred the Baker Company</h1>
-<ul>
-    <li><a href=#"Fred">Fred the Baker</a></li>
-    <li><a href=#"Inspiration">Inspiration</a></li>
-    <li><a href=#"Contact">Contact Information</a></li>
+<div class="hero">
+    <div class = "container">
+        <h1>Fred the Baker Company</h1>
+        <ul>
+            <li><a href=#"Fred">Fred the Baker</a></li>
+            <li><a href=#"Inspiration">Inspiration</a></li>
+            <li><a href=#"Contact">Contact Information</a></li>
+    </div>
+</div>
+
 </ul>
 <main>
-    
+    <div class="container">
+        <h1>Counter</h1>
+        <span id="counter">0</span>
+        <div class="btn-container">
+            <button class="btn increase">Increase</button>
+            <button class="btn reset">Reset</button>
+            <button class="btn decrease">Decrease</button>
+        </div>
+    </div>
+    <script src="DonutMaker.js"></script>
 </main>
 
 </body>
